@@ -1,0 +1,101 @@
+.App {
+    background-color: black;
+  }
+  .all-theatres {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    justify-content: space-between;
+  }
+  .all-theatres div {
+    display: flex;
+    margin: 10px;
+  }
+  .content {
+    margin: auto;
+    width: 100%;
+  }
+  .find-a-theatre {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    width: fit-content;
+    margin: auto;
+  }
+  h1 {
+    font-family: gordita, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-left: 10px;
+  }
+  .searchbar {
+    border-bottom: 1px solid white;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .searchbar input {
+    border: transparent;
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    color: white;
+  }
+  .input-div {
+    width: 80%;
+  }
+  .searchbar button {
+    border: transparent;
+    background-color: transparent;
+    width: 50px;
+    height: 100%;
+    margin-bottom: 5px;
+  }
+  .searchbar img {
+    height: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: #00a8e1;
+    white-space: nowrap;
+  }
+  a:hover {
+    color: white;
+  }
+  ul {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 200px;
+    margin-bottom: -1rem;
+  }
+  li {
+    margin-bottom: 1.25rem;
+  }
+  .markets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .markets-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .market-div ul {
+  }
+  .marketsStates {
+    /* width: 20%; */
+    align-items: center;
+  }
+  .marketsStates h4 {
+    margin: 5px;
+  }
+  .marketsStates h4:hover {
+    border-bottom: 2px solid white;
+  }
+  .nav-and-search {
+    margin-bottom: 30px;
+  }
