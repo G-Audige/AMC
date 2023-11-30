@@ -19,7 +19,6 @@ function App() {
         <Route path="/markets" element={<Markets />} />
         <Route path="/states" element={<States />} />
       </Routes>
-      {/* <FindATheatre /> */}
       <div className="footer">
         <img src="./links.png" className="img" alt="" />
         <Footer />
