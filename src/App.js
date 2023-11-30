@@ -1,10 +1,10 @@
-import './findATheatre.css'
-import FindATheatre from './components/FindATheatre';
+import './findATheatre.css';
+import FindATheatre from './components/FindATheatrePage';
 
 function App() {
   return (
-    <div className="App">
-      <FindATheatre/>
+    <div className='App'>
+      <FindATheatre />
     </div>
   );
 }
