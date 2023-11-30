@@ -1,10 +1,10 @@
 import React from 'react';
-import markets from '../models/MarketLinks';
+import markets from '../../models/MarketLinks';
 
 function Markets() {
   return (
-    <div className='markets'>
-      <div className='markets-div'>
+    <div className="markets">
+      <div className="markets-div">
         <div>
           <ul>
             {markets[0].map((market) => {
@@ -28,7 +28,7 @@ function Markets() {
           </ul>
         </div>
       </div>
-      <div className='markets-div'>
+      <div className="markets-div">
         <div>
           <ul>
             {markets[2].map((market) => {
@@ -41,7 +41,7 @@ function Markets() {
           </ul>
         </div>
         <div>
-          <ul className='row4'>
+          <ul className="row4">
             {markets[3].map((market) => {
               return (
                 <li>

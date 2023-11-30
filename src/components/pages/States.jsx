@@ -1,12 +1,11 @@
 import React from 'react';
-import states from '../models/StatesLinks';
-import markets from '../models/MarketLinks';
+import states from '../../models/StatesLinks';
 
 function States() {
   return (
-    <div className='states'>
-      <div className='states-div'>
-        <div className='state'>
+    <div className="states">
+      <div className="states-div">
+        <div className="state">
           <p>Alabama</p>
           <ul>
             {states[0].map((state) => {
@@ -118,7 +117,7 @@ function States() {
             })}
           </ul>
         </div>
-        <div className='state'>
+        <div className="state">
           <p>Illinois</p>
           <ul>
             {states[11].map((state) => {
@@ -221,8 +220,8 @@ function States() {
           </ul>
         </div>
       </div>
-      <div className='states-div'>
-        <div className='state'>
+      <div className="states-div">
+        <div className="state">
           <p>Missouri</p>
           <ul>
             {states[21].map((state) => {
@@ -344,7 +343,7 @@ function States() {
             })}
           </ul>
         </div>
-        <div className='state'>
+        <div className="state">
           <p>Oregon</p>
           <ul>
             {states[33].map((state) => {
