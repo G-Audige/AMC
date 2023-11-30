@@ -1,0 +1,185 @@
+.Footer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+
+
+.bottom{
+  background-color: #585858;
+}
+
+.header{
+  color: white;
+  background-color: black;
+  font-size: 19px;
+}
+
+.header h4{
+display: flex;
+flex-direction: row;
+justify-content:right;
+}
+
+.header h5{
+  display: flex;
+  flex-direction: row;
+  justify-content:right;
+  }
+
+  .Titles{
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  .Moretitles{
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  .Nexttitles{
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+
+  .Lasttitles{
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+
+  .Movies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align:center;
+    justify-content: space-evenly;
+  }
+
+  .important{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    text-align: left;
+  }
+.intro{
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin-left: 1000px;
+}
+
+  .stuff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 250px;
+  }
+
+  .MoreMovies{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Extras{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .img {
+    width: 100vw
+  }
+  .img2{
+     height: 250px;
+     width: 200px; 
+  }
+
+  .img3{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img4{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img5{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img6{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img7{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img8{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img9{
+    height: 290px;
+    width: 200px;
+  }
+
+  .img10{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img11{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img12{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img13{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img14{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img15{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img16{
+    height: 250px;
+    width: 200px;
+  }
+
+  .img20{
+    height: 600px;
+    width: 750px;
+  }
+
+  .Lastimg{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
