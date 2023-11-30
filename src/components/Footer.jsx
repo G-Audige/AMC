@@ -65,6 +65,7 @@ function Footer() {
         <p>Request Refund</p>
         <p>Business Clients</p>
       </div>
+      
     </footer>
   );
 }

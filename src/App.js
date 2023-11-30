@@ -1,15 +1,30 @@
 import './findATheatre.css';
 import './App.css';
 import './App1.css';
-import FindATheatre from './components/FindATheatrePage';
-// import { useState } from 'react';
+import SeeAMovie from './pages/SeeAMovie';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
+import Footerlogo from './components/Footerlogo';
+import Header from './components/Header';
+import Markets from './pages/Markets';
+import States from './pages/States';
 
 function App() {
-  // const apiKey = '44FAF92B-1A86-46AB-93C4-1475F927B05A';
-
   return (
     <div>
-      <FindATheatre />
+      <Header />
+      <Routes>
+        <Route path="/" />
+        <Route path="/seeamovie" element={<SeeAMovie />} />
+        <Route path="/markets" element={<Markets />} />
+        <Route path="/states" element={<States />} />
+      </Routes>
+      {/* <FindATheatre /> */}
+      <div className="footer">
+        <img src="./links.png" className="img" alt="" />
+        <Footer />
+        <Footerlogo />
+      </div>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function UpperHeader(props) {
   return (
@@ -7,8 +8,14 @@ export default function UpperHeader(props) {
         <h3 className="logo1">AMC</h3>
         <p className="logo2">Theaters</p>
       </div>
-      <p className="p-header">See a Movie</p>
-      <p className="p-header">Find a Theater</p>
+      <Link to="seeamovie">
+        <p className="p-header">See a Movie</p>
+      </Link>
+
+      <Link to="/markets">
+        <p className="p-header">Find a Theater</p>
+      </Link>
+
       <p className="p-header">Food & Drinks</p>
       <p className="p-header">More</p>
       <div className="separator"></div>

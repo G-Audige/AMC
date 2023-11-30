@@ -15,17 +15,21 @@
   margin: auto;
   max-width: 1300px;
   min-height: 100vh;
+  background-color: black;
+}
+.content p {
+  color: white;
 }
 .find-a-theatre {
   background-color: black;
   border: 1px solid white;
-  color: white;
   margin: auto;
 }
 h1 {
   font-family: gordita, Helvetica, sans-serif;
   font-weight: 900;
   margin-left: 10px;
+  color: white;
 }
 h4 {
   color: white;
@@ -60,6 +64,7 @@ h4 {
 }
 .searchbar img {
   height: 100%;
+  width: 40px;
 }
 .all-theatres-box-size {
   width: 800px;
@@ -89,7 +94,6 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   /* border: 1px solid white; */
 }
 .markets-div {
