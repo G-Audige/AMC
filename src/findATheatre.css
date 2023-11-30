@@ -20,7 +20,6 @@
   background-color: black;
   border: 1px solid white;
   color: white;
-  /* width: fit-content; */
   margin: auto;
 }
 h1 {
@@ -62,8 +61,9 @@ h4 {
 .searchbar img {
   height: 100%;
 }
-.box-width {
+.all-theatres-box-size {
   width: 800px;
+  /* border: 1px solid white; */
 }
 a {
   text-decoration: none;
@@ -80,6 +80,7 @@ ul {
   font-family: sans-serif;
   width: 170px;
   padding-left: 0;
+  text-align: left;
 }
 li {
   margin-bottom: 1.25rem;
@@ -88,6 +89,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
   /* border: 1px solid white; */
 }
 .markets-div {
@@ -113,6 +115,7 @@ li {
 }
 .navLinks {
   align-items: center;
+  /* border: 1px solid white; */
 }
 .navLinks h4 {
   margin: 5px;
