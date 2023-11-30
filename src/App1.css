@@ -1,0 +1,156 @@
+header {
+  z-index: 2;
+  top: 0;
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 15%;
+  margin-bottom: 200px;
+  background: black;
+  color: white;
+  padding-top: 0;
+}
+
+.upper-header,
+.lower-header {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 50%;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.upper-header {
+  border-bottom: solid gray 1px;
+  padding-bottom: 5px;
+}
+
+.lower-header {
+  margin-top: 0;
+}
+
+.logo {
+  color: #ce0e2d;
+  display: block;
+  margin-left: 40px;
+}
+.logo1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.logo1,
+.logo2 {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.logo:hover,
+.p-header:hover,
+.lupa:hover,
+.locations:hover,
+.ticket-img:hover {
+  cursor: pointer;
+  border-bottom: solid #00a8e1 1px;
+}
+
+.p-header:hover {
+  color: #00a8e1;
+}
+
+.logo2 {
+  margin-top: 0;
+  top: 0;
+  font-size: smaller;
+}
+
+.p-header,
+.search {
+  margin: 10px;
+  font-weight: 600;
+}
+
+.separator {
+  width: 10%;
+}
+
+.search {
+  width: 18%;
+}
+
+input {
+  background: #272727;
+  color: #a3a3a3;
+  border: 0cap;
+  height: 30px;
+  width: 100%;
+}
+
+.lupa {
+  position: absolute;
+  right: 415px;
+  top: 22px;
+  color: white;
+}
+
+.locations {
+  color: #00a8e1;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.locations,
+.location-logo {
+  margin-top: 8px;
+}
+
+img {
+  width: 25px;
+}
+
+.show-times {
+  margin-left: 10px;
+  display: flex;
+  border-left: solid gray 1px;
+  border-right: solid gray 1px;
+}
+
+.ticket-img {
+  width: 40px;
+}
+
+.log {
+  /* top: 0;
+    padding-top: 0; */
+  display: flex;
+  align-items: stretch;
+  font-size: smaller;
+}
+
+.user-logo {
+  margin-top: 5%;
+  margin-left: 0.01%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid white 2px;
+}
+
+.stubs {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+strong {
+  border-bottom: solid white 1px;
+}
+.s2 {
+  width: 35%;
+}
+.ph2 {
+  font-weight: 100;
+  font-size: 15px;
+}
