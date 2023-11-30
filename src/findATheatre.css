@@ -46,6 +46,7 @@ h4 {
   height: 40px;
   width: 100%;
   color: white;
+  font-size: 20px;
 }
 .input-div {
   width: 80%;
@@ -78,7 +79,7 @@ ul {
   font-size: 14px;
   font-family: sans-serif;
   width: 170px;
-  margin-bottom: -1rem;
+  padding-left: 0;
 }
 li {
   margin-bottom: 1.25rem;
@@ -88,6 +89,13 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   /* border: 1px solid white; */
+}
+.markets-div {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-around;
 }
 .states {
   display: flex;
@@ -100,29 +108,13 @@ li {
   justify-content: space-around;
   width: 50%;
 }
-.state {
-  border: solid white;
-}
-.state ul {
-  padding-left: 0;
-  margin-bottom: 1.25rem;
-}
 .state p {
   font-size: 18px;
 }
-.markets-div {
-  /* border: 1px solid white; */
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  margin: auto;
-  justify-content: space-evenly;
-}
-
-.marketsStates {
+.navLinks {
   align-items: center;
 }
-.marketsStates h4 {
+.navLinks h4 {
   margin: 5px;
 }
 h4:hover {
