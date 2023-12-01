@@ -7,12 +7,10 @@ import { Link } from 'react-router-dom';
 export default function UpperHeader(props) {
   return (
     <div className={props.className}>
-      <Link to='/main'>
         <div className="logo">
           <h3 className="logo1">AMC</h3>
           <p className="logo2">Theaters</p>
         </div>
-      </Link>
       <Link to="/seeamovie">
         <p className="p-header">See a Movie</p>
       </Link>
