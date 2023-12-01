@@ -1,7 +1,6 @@
 import React from 'react';
 import markets from '../models/MarketLinks';
 import FindATheatreNav from '../components/FindATheatreNav';
-import { Link } from 'react-router-dom';
 
 function Markets() {
   return (

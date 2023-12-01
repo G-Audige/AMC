@@ -8,15 +8,16 @@ import Footerlogo from './components/Footerlogo';
 import Header from './components/Header';
 import Markets from './pages/Markets';
 import States from './pages/States';
+import Main from './pages/Main';
 
 function App() {
   return (
     <div>
       <Header />
       <Routes>
-        <Route path="/" />
+        <Route path="/" element={<Markets/>}/>
         <Route path="/seeamovie" element={<SeeAMovie />} />
-        <Route path="/markets" element={<Markets />} />
+        <Route path="/main" element={<Main />} />
         <Route path="/states" element={<States />} />
       </Routes>
       <div className="footer">

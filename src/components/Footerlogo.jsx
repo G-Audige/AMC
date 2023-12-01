@@ -1,3 +1,5 @@
+// This code was written by Deandre Byrd
+
 import React from 'react'
 
 function Footerlogo() {

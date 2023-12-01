@@ -1,3 +1,5 @@
+// This code was written by Nureddyn
+
 import React from 'react'
 
 export default function LowerHeader(props) {

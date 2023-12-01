@@ -1,10 +1,13 @@
+// This code was written by Nureddyn
+// Links were added by Gloria Audige
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function UpperHeader(props) {
   return (
     <div className={props.className}>
-      <Link to='/'>
+      <Link to='/main'>
         <div className="logo">
           <h3 className="logo1">AMC</h3>
           <p className="logo2">Theaters</p>
@@ -13,11 +16,9 @@ export default function UpperHeader(props) {
       <Link to="/seeamovie">
         <p className="p-header">See a Movie</p>
       </Link>
-
-      <Link to="/markets">
+      <Link to="/">
         <p className="p-header">Find a Theater</p>
       </Link>
-
       <p className="p-header">Food & Drinks</p>
       <p className="p-header">More</p>
       <div className="separator"></div>

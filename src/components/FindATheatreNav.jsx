@@ -20,7 +20,7 @@ function FindATheatreNav() {
       <div className='all-theatres'>
         <h1 className='all-theatres-box-size'>All Theatres</h1>
         <div className='navLinks'>
-          <Link to='/markets'>
+          <Link to='/'>
             <h4>Markets</h4>
           </Link>
           <Link to='/states'>
